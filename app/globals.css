@@ -4,13 +4,18 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Janatar Bhasha Color Scheme */
-  --burgundy: #8B1538;
-  --cream: #FFFBF5;
-  --charcoal: #2C2C2C;
-  --taupe: #E8E3D8;
+  /* Agartala Darpan Color Scheme - Bold Modern Emerald & Rust Theme */
+  --burgundy: #1B4D3D;
+  --cream: #FEFBF7;
+  --charcoal: #0F0F0F;
+  --taupe: #D0C4B8;
   --off-white: #FFFFFF;
-  --light-cream: #FFF9E6;
+  --light-cream: #F5FBF8;
+  
+  /* Accent color - Warm Rust for modern sophistication */
+  --accent-gold: #D4734B;
+  /* Teal accent for depth */
+  --accent-teal: #2A9B8E;
 
   --background: var(--cream);
   --foreground: var(--charcoal);
@@ -23,10 +28,10 @@
   --secondary: var(--light-cream);
   --secondary-foreground: var(--charcoal);
   --muted: var(--taupe);
-  --muted-foreground: #666666;
+  --muted-foreground: #333333;
   --accent: var(--burgundy);
   --accent-foreground: var(--off-white);
-  --destructive: #DC2626;
+  --destructive: #E74C3C;
   --destructive-foreground: var(--off-white);
   --border: var(--taupe);
   --input: var(--taupe);
@@ -36,11 +41,11 @@
   --chart-3: oklch(0.4732 0.1247 46.2007);
   --chart-4: oklch(0.5553 0.1455 48.9975);
   --chart-5: oklch(0.4732 0.1247 46.2007);
-  --sidebar: var(--light-cream);
+  --sidebar: #FAF9F5;
   --sidebar-foreground: var(--charcoal);
   --sidebar-primary: var(--burgundy);
   --sidebar-primary-foreground: var(--off-white);
-  --sidebar-accent: #FFF3E0;
+  --sidebar-accent: #F0F6F4;
   --sidebar-accent-foreground: var(--burgundy);
   --sidebar-border: var(--taupe);
   --sidebar-ring: var(--burgundy);
@@ -48,19 +53,19 @@
   --font-serif: Source Serif 4, serif;
   --font-mono: JetBrains Mono, monospace;
   --radius: 0.75rem;
-  --shadow-2xs: 0px 4px 8px -1px rgba(139, 21, 56, 0.05);
-  --shadow-xs: 0px 4px 8px -1px rgba(139, 21, 56, 0.05);
-  --shadow-sm: 0px 4px 8px -1px rgba(139, 21, 56, 0.1),
-    0px 1px 2px -2px rgba(139, 21, 56, 0.1);
-  --shadow: 0px 4px 8px -1px rgba(139, 21, 56, 0.1),
-    0px 1px 2px -2px rgba(139, 21, 56, 0.1);
-  --shadow-md: 0px 4px 8px -1px rgba(139, 21, 56, 0.1),
-    0px 2px 4px -2px rgba(139, 21, 56, 0.1);
-  --shadow-lg: 0px 4px 8px -1px rgba(139, 21, 56, 0.1),
-    0px 4px 6px -2px rgba(139, 21, 56, 0.1);
-  --shadow-xl: 0px 4px 8px -1px rgba(139, 21, 56, 0.1),
-    0px 8px 10px -2px rgba(139, 21, 56, 0.1);
-  --shadow-2xl: 0px 4px 8px -1px rgba(139, 21, 56, 0.25);
+  --shadow-2xs: 0px 4px 8px -1px rgba(27, 77, 61, 0.06);
+  --shadow-xs: 0px 4px 8px -1px rgba(27, 77, 61, 0.06);
+  --shadow-sm: 0px 4px 8px -1px rgba(27, 77, 61, 0.12),
+    0px 1px 2px -2px rgba(27, 77, 61, 0.12);
+  --shadow: 0px 4px 8px -1px rgba(27, 77, 61, 0.12),
+    0px 1px 2px -2px rgba(27, 77, 61, 0.12);
+  --shadow-md: 0px 4px 8px -1px rgba(27, 77, 61, 0.12),
+    0px 2px 4px -2px rgba(27, 77, 61, 0.12);
+  --shadow-lg: 0px 4px 8px -1px rgba(27, 77, 61, 0.12),
+    0px 4px 6px -2px rgba(27, 77, 61, 0.12);
+  --shadow-xl: 0px 4px 8px -1px rgba(27, 77, 61, 0.12),
+    0px 8px 10px -2px rgba(27, 77, 61, 0.12);
+  --shadow-2xl: 0px 4px 8px -1px rgba(27, 77, 61, 0.25);
 }
 
 .dark {
@@ -181,23 +186,23 @@
 
   /* Custom Tailwind colors */
   .bg-cream {
-    background-color: #FFFBF5;
+    background-color: #FEFBF7;
   }
 
   .bg-burgundy {
-    background-color: #8B1538;
+    background-color: #1B4D3D;
   }
 
   .text-burgundy {
-    color: #8B1538;
+    color: #1B4D3D;
   }
 
   .text-charcoal {
-    color: #2C2C2C;
+    color: #0F0F0F;
   }
 
   .border-taupe {
-    border-color: #E8E3D8;
+    border-color: #D0C4B8;
   }
 
   /* Smooth scrolling */
@@ -217,10 +222,46 @@
     line-height: 1.6;
   }
 
+  /* Enhanced background styling for beautiful appearance */
+  body {
+    background: linear-gradient(180deg, #FEFBF7 0%, #F5FBF8 50%, #FEFBF7 100%);
+    background-attachment: fixed;
+  }
+
+  /* Beautiful section backgrounds with modern styling */
+  section {
+    position: relative;
+  }
+
+  section:nth-child(even) {
+    background-color: #FFFFFF;
+  }
+
+  section:nth-child(odd) {
+    background-color: #FEFBF7;
+  }
+
+  /* Modern enhanced shadows with rust tint */
+  .shadow-lg {
+    box-shadow: 0 10px 28px -6px rgba(212, 115, 75, 0.09);
+  }
+
+  .hover\:shadow-lg:hover {
+    box-shadow: 0 15px 40px -8px rgba(27, 77, 61, 0.14);
+    transition: box-shadow 0.3s ease;
+  }
+
+  /* Smooth transitions for better UX */
+  * {
+    transition-property: background-color, border-color, color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
   /* Fix button hover state specificity issues */
   button.hover\:bg-burgundy:hover,
   a.hover\:bg-burgundy:hover {
-    background-color: #8B1538 !important;
+    background-color: #1B4D3D !important;
   }
 
   button.hover\:text-white:hover,
@@ -229,11 +270,11 @@
   }
 
   button.hover\:bg-destructive:hover {
-    background-color: #DC2626 !important;
+    background-color: #E74C3C !important;
     color: #FFFFFF !important;
   }
 
   button.hover\:text-burgundy:hover {
-    color: #8B1538 !important;
+    color: #1B4D3D !important;
   }
 }

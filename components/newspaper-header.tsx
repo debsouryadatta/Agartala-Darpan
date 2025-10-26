@@ -33,7 +33,7 @@ export default function NewspaperHeader() {
   }, []);
 
   return (
-    <header className="w-full bg-cream border-b-2 border-taupe">
+    <header className="w-full bg-secondary border-b-2 border-taupe">
             {/* Navbar */}
             <nav
         className={`sticky top-0 z-50 bg-white transition-shadow duration-300 ${
@@ -123,7 +123,7 @@ export default function NewspaperHeader() {
 
           {/* Tagline */}
           <p className="bengali-text text-lg md:text-xl text-charcoal/80">
-            কুঞ্জাবন কলোনি, আগরতলা, পশ্চিম ত্রিপুরা থেকে প্রকাশিত
+            কুঞ্জবন কলোনি, আগরতলা, পশ্চিম ত্রিপুরা থেকে প্রকাশিত
           </p>
 
           {/* Editor Info */}

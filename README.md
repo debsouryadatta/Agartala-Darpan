@@ -100,11 +100,21 @@ Agartala-Darpan/
 
 ## 🎨 Design Philosophy
 
-### Color Palette
-- **Primary:** Deep burgundy (#8B1538)
-- **Background:** Warm cream (#FFFBF5)
-- **Text:** Charcoal (#2C2C2C)
-- **Borders:** Light taupe (#E8E3D8)
+### Color Palette - Bold Modern Emerald & Rust Theme
+- **Primary:** Deep Emerald Green (#1B4D3D) - Modern, natural, sophisticated
+- **Background:** Soft Cream White (#FEFBF7) - Clean and inviting
+- **Secondary Background:** Light Mint (#F5FBF8) - Subtle cool accent
+- **Accent Rust:** Warm Rust (#D4734B) - Bold, contemporary warmth
+- **Accent Teal:** Modern Teal (#2A9B8E) - Depth and sophistication
+- **Text:** Very Dark Charcoal (#0F0F0F) - Maximum contrast and readability
+- **Borders:** Warm Neutral Gray (#D0C4B8) - Sophisticated separation
+- **Sidebar:** Off-White Cream (#FAF9F5) - Subtle distinction
+
+### Visual Features
+- **Modern Gradient Background:** Vertical gradient for contemporary feel
+- **Accent Section Borders:** Bold emerald and rust top borders for visual hierarchy
+- **Enhanced Shadows:** Rust-tinted shadows for warm, modern depth
+- **Smooth Transitions:** All interactive elements have smooth color transitions
 
 ### Typography
 - **Bengali Headlines:** Noto Serif Bengali

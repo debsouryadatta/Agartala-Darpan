@@ -99,7 +99,7 @@ export default function ContactSection() {
                     Office Address
                   </h3>
                   <p className="bengali-text text-charcoal/70">
-                    কুঞ্জাবন কলোনি, আগরতলা, পশ্চিম ত্রিপুরা ৭৯৯০০৫
+                    কুঞ্জবন কলোনি, আগরতলা, পশ্চিম ত্রিপুরা ৭৯৯০০৫
                   </p>
                   <p className="font-inter text-sm text-charcoal/70">
                     Kunjaban Colony, P.O-Abhoynagar, Agartala, West Tripura 799005

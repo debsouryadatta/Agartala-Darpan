@@ -52,7 +52,7 @@ export default function RootLayout({
       <body
         className={`antialiased bg-cream`}
       >
-        <NextTopLoader showSpinner={false} height={6} color="#8B1538" />
+        <NextTopLoader showSpinner={false} height={6} color="#1B4D3D" />
         <Toaster richColors position="top-right" />
         <main className="min-h-screen">
           {children}

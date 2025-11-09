@@ -43,7 +43,7 @@ export default function NewspaperFooter() {
 
           {/* Bengali Tagline */}
           {/* <p className="bengali-text text-xs text-charcoal/50 pt-2">
-            জনতার কণ্ঠস্বর, জনতার ভাষা
+            আগরতলা দৰ্পণ
           </p> */}
         </div>
       </div>

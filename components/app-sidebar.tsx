@@ -21,7 +21,7 @@ export default function AppSidebar({ ...props }: React.ComponentProps<typeof Sid
    return (
       <Sidebar collapsible="offcanvas" {...props}>
          <SidebarHeader className="flex items-center px-4 py-6">
-            <h2 className="bengali-serif text-2xl font-bold text-burgundy">জনতার ভাষা</h2>
+            <h2 className="bengali-serif text-2xl font-bold text-burgundy">আগরতলা দৰ্পণ</h2>
          </SidebarHeader>
          <SidebarContent>
             <SidebarMenu className="px-2 py-4">

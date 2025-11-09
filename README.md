@@ -37,7 +37,7 @@ A minimal, beautiful single-page website for **Agartala Darpan** (আগরত�
 
 ```bash
 git clone <your-repo-url>
-cd Janatar-Bhasha
+cd Agartala-Darpan
 bun install
 ```
 

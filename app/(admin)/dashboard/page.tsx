@@ -7,7 +7,7 @@ export default function DashboardPage() {
       <div className="flex flex-col gap-6 w-full">
          <div className="flex flex-col gap-2">
             <h2 className="bengali-serif text-3xl font-bold tracking-tight text-burgundy">
-               জনতার ভাষা - Admin Dashboard
+               আগরতলা দৰ্পণ - Admin Dashboard
             </h2>
             <p className="font-inter text-charcoal/70">
                Manage E-Paper Publications & Messages

@@ -84,7 +84,7 @@ bun dev
 ### Change Newspaper Name
 Edit `components/newspaper-header.tsx`:
 ```tsx
-<h1>জনতার ভাষা</h1>  // Change this
+<h1>আগরতলা দৰ্পণ</h1>  // Change this
 ```
 
 ### Change Colors

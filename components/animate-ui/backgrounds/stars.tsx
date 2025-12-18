@@ -38,10 +38,22 @@ function StarLayer({
   ...props
 }: StarLayerProps) {
   const [boxShadow, setBoxShadow] = React.useState<string>('');
+  const [mounted, setMounted] = React.useState(false);
 
   React.useEffect(() => {
+    setMounted(true);
     setBoxShadow(generateStars(count, starColor));
   }, [count, starColor]);
+
+  // Prevent hydration mismatch by not rendering stars until mounted
+  // Return empty div to maintain layout structure (without motion props)
+  if (!mounted) {
+    return (
+      <div
+        className={cn('absolute top-0 left-0 w-full h-[2000px]', className)}
+      />
+    );
+  }
 
   return (
     <motion.div
@@ -97,6 +109,7 @@ function StarsBackground({
 
   const handleMouseMove = React.useCallback(
     (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+      if (typeof window === 'undefined') return;
       const centerX = window.innerWidth / 2;
       const centerY = window.innerHeight / 2;
       const newOffsetX = -(e.clientX - centerX) * factor;
